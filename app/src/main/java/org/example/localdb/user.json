@@ -1,32 +1,38 @@
 [
-{ "user_id": "12345",
-  "name": "lovenpreet singh",
-  "hashPassword": "abc12345",
-  "ticket_booked": [
-    {
-      "source": "Bangloure",
-      "destination": "Delhi",
-      "date_of_travel": "2023-12-0BT18:30:00Z",
-      "train": {
-        "train_id": "bacs",
-        "train_no": 12345,
-        "seats": [
-          [0,0,0,0,0,0],
-          [0,0,0,0,0,0],
-          [0,0,0,0,0,0],
-          [0,0,0,0,0,0]
-        ],
-        "stations": {
-          "Bangalore": "13:50:00",
-          "jaipur": "13:50:00",
-          "Delhi": "13:50: 00"
-
+  {
+    "userId": "12345",
+    "name": "lovenpreet singh",
+    "password": "",
+    "hashPassword": "abc12345",
+    "ticketBooked": [
+      {
+        "ticketId": "T001",
+        "userId": "12345",
+        "source": "bangalore",
+        "destination": "delhi",
+        "dateOfTran": "2023-12-08T18:30:00Z",
+        "train": {
+          "trainId": "bacs",
+          "trainNo": "12345",
+          "name": "Rajdhani Express",
+          "seats": [
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0]
+          ],
+          "stationTimes": {
+            "bangalore": "13:50:00",
+            "jaipur": "18:30:00",
+            "delhi": "22:45:00"
+          },
+          "station": [
+            "bangalore",
+            "jaipur",
+            "delhi"
+          ]
         }
-
       }
-
-    }
-  ]
-
-}
-  ]
+    ]
+  }
+]
